@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace Dydelfomania
 {
-    public partial class Dydelfing_Time : Form
+    public partial class Form2 : Form
     {
-        public Dydelfing_Time(Form1 form1)
+        public Form2()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
     }
 }
